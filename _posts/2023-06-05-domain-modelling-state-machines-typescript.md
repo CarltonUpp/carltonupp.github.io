@@ -301,7 +301,7 @@ type CompletedOrder = OrderDetail<State.Complete>;
 type CancelledOrder = OrderDetail<State.Cancelled>;
 ```
 
-Firstly I have created an **Enum** type to represent the various state values. I personally went with an Enum instead of the union type that we created previously because in my view **OrderDetail&lt;"Open"&gt;** is not as readable as **OrderDetail&lt;**[**State.Open**](http://State.Open)**\&gt;**. Another benefit is that enums have an implicit order to them, though in this example we won't be using that.
+Firstly I have created an **Enum** type to represent the various state values. I personally went with an Enum instead of the union type that we created previously because in my view **OrderDetail&lt;"Open"&gt;** is not as readable as **OrderDetail&lt;State.Open&gt;**. Another benefit is that enums have an implicit order to them, though in this example we won't be using that.
 
 ## **Putting it all together**
 
