@@ -29,7 +29,7 @@
 #
 - type: bluesky
   icon: "fa-brands fa-bluesky"
-  url: "https://bsky.app/profile/carltonupp.bsky.social" # Fill with your Bluesky profile link
+  url: "https://bsky.app/profile/upperdine.dev" # Fill with your Bluesky profile link
 #
 - type: reddit
   icon: "fa-brands fa-reddit"
